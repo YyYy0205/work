@@ -1,9 +1,10 @@
 # 工作记录
 
-## 3.2
-1. 配置xr_teleoperate 环境
-> https://github.com/YyYy0205/xr_teleoperate/blob/main/README_zh-CN.md
-2. 横装franka机械臂
+## 3.4
+1. 配置采集数据环境和任务设置
+> 从地上抓取盒子放到箱子上
+2. 配置 Realsense 环境
+> 验证摄像头，并确定安装位置
 
 ## 3.3
 1. start the robot
@@ -26,3 +27,8 @@
 这个控制器实现了一个简单的笛卡尔空间位置控制器。它通过计算期望的末端执行器位置来生成笛卡尔空间的命令。
 > `ros2 control load_controller --set-state active cartesian_pose_example_controller` 
 > `ros2 control set_controller_state cartesian_pose_example_controller inactive`
+
+## 3.2
+1. 配置xr_teleoperate 环境
+> https://github.com/YyYy0205/xr_teleoperate/blob/main/README_zh-CN.md
+2. 横装franka机械臂
