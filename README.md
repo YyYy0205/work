@@ -1,5 +1,37 @@
 # 工作记录
 
+## 3.5
+1. lerobot pi0
+```
+lerobot-teleoperate \
+    --robot.type=so101_follower \
+    --robot.port=/dev/ttyACM1 \
+    --robot.id=my_awesome_follower_arm \
+    --teleop.type=so101_leader \
+    --teleop.port=/dev/ttyACM0 \
+    --teleop.id=my_awesome_leader_arm
+```
+2. 采集
+```
+lerobot-record     --robot.type=so101_follower     --robot.port=/dev/ttyACM1     --robot.cameras='{
+        "handeye": {
+            "type": "opencv",
+            "index_or_path": 0,
+            "width": 640,
+            "height": 480,
+            "fps": 30
+        },
+        "front": {
+            "type": "opencv",
+            "index_or_path": 2,
+            "width": 640,
+            "height": 480,
+            "fps": 30
+        }
+    }'     --teleop.type=so101_leader     --teleop.port=/dev/ttyACM0   --display_data=false     --dataset.repo_id=y/1     --dataset.num_episodes=20     --dataset.single_task="Put the black square into the white frame"     --dataset.push_to_hub=false
+
+```
+
 ## 3.4
 1. 配置采集数据环境和任务设置
 > 从地上抓取盒子放到箱子上
