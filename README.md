@@ -31,6 +31,8 @@ lerobot-record     --robot.type=so101_follower     --robot.port=/dev/ttyACM1    
     }'     --teleop.type=so101_leader     --teleop.port=/dev/ttyACM0   --display_data=false     --dataset.repo_id=y/1     --dataset.num_episodes=20     --dataset.single_task="Put the black square into the white frame"     --dataset.push_to_hub=false
 
 ```
+3. 训练
+
 
 ## 3.4
 1. 配置采集数据环境和任务设置
