@@ -1,5 +1,31 @@
 # 工作记录
 
+## 3.13 Friday
+
+## 3.12 Thursday
+### To-do List
+- [ ] 恢复NUC，安装: Ubuntu 18.04
+- [ ] 配置NUC
+
+
+## 3.11 Wednesday
+1. 帮助 FRANKA 测试
+2. 阅读 DROID 网站
+  - [Shoping list](https://droid-dataset.github.io/droid/hardware-setup/shopping-list.html)
+  - [Assembly](https://droid-dataset.github.io/droid/hardware-setup/assembly.html)
+  - [Running Application on Host](https://droid-dataset.github.io/droid/software-setup/host-installation.html)
+3. 评估 DROID 方案
+4. 制作 Shopping list
+   > EXCEL: droid_shopping_list.xlsx
+
+## 3.10 Tuesday
+1. 安装 Openclaw
+2. lerobot 训练 Difussion 策略
+
+## 3.9 Monday
+1. 测试 Franka
+2. 测试 Pico
+
 ## 3.5
 1. lerobot pi0
 ```
