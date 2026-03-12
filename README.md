@@ -7,10 +7,15 @@
 - [x] 恢复NUC，安装: Ubuntu 18.04
       > NUC 太新可能存在适配问题
 帐号：robot 密码：0
-- [ ] 配置NUC
-1. Static IP Address 172.10.0.2
-2. RT Patch of Kernel
-3. 
+- [x] 配置NUC
+1. 配置wifi
+2. Static IP Address 172.10.0.2
+3. RT Patch of Kernel
+4. 激活real time 内核
+5. 编译内核
+6. 激活实时内核
+- [x] 禁用CPU频率缩放 performance模式
+
 
 1. 修改Difussion训练
    - 减小 --num_workers=4
