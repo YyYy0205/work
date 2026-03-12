@@ -4,8 +4,19 @@
 
 ## 3.12 Thursday
 ### To-do List
-- [ ] 恢复NUC，安装: Ubuntu 18.04
+- [x] 恢复NUC，安装: Ubuntu 18.04
+      > NUC 太新可能存在适配问题
+帐号：robot 密码：0
 - [ ] 配置NUC
+1. Static IP Address 172.10.0.2
+2. RT Patch of Kernel
+3. 
+
+1. 修改Difussion训练
+   - 减小 --num_workers=4
+   - 限制 CPU 线程
+   - 关闭 multiprocessing fork 问题（强烈推荐）
+2. 
 
 
 ## 3.11 Wednesday
