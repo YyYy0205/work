@@ -1,12 +1,27 @@
 # 工作记录
 
+## 3.17 
+- [ ] 打开quest2 开发者模式
+
+## 3.16 Monday
+1. 电脑DROID环境配置
+- 安装显卡驱动
+- 安装ZED SDK
+2. 编辑配置文件
+  ` nano droid/misc/parameters.py`
+
+## 3.14 Starday
+1.帮助调试PICO
+
 ## 3.13 Friday
+1. 编译 Franka
+2. 编译 Polymetis
 
 ## 3.12 Thursday
 ### To-do List
 - [x] 恢复NUC，安装: Ubuntu 18.04
-      > NUC 太新可能存在适配问题
-帐号：robot 密码：0
+- NUC 太新可能存在适配问题
+- 帐号：robot 密码：0
 - [x] 配置NUC
 1. 配置wifi
 2. Static IP Address 172.10.0.2
@@ -21,8 +36,6 @@
    - 减小 --num_workers=4
    - 限制 CPU 线程
    - 关闭 multiprocessing fork 问题（强烈推荐）
-2. 
-
 
 ## 3.11 Wednesday
 1. 帮助 FRANKA 测试
