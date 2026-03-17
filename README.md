@@ -1,7 +1,33 @@
 # 工作记录
 
 ## 3.17 
-- [ ] 打开quest2 开发者模式
+- [x] 打开quest2 开发者模式
+- [x] 安装ADB
+> [ meta developers ](https://developers.meta.com/horizon/documentation/native/android/mobile-device-setup/)
+1. 创建meta账号
+2. 激活meta开发者
+3. 初始化quest
+4. 手机app连接quest
+5. 打开开发者模式
+6. 安装 Oculus ADB 驱动
+7. 安装 ADB
+    > https://developers.meta.com/horizon/documentation/native/android/ts-adb/
+    - cd C:\Users\31555\AppData\Local\Android\Sdk\platform-tools
+    - 验证安装：adb help
+    - USB连接后查找设备：adb devices
+    - 通过 Wi-Fi 连接 ADB
+    ```
+    # 第一步：让ADB切换到TCP/IP模式，端口用默认的5555
+    adb tcpip 5555
+    # 第二步：通过Wi-Fi连接到头显（用你刚才获取的IP地址）
+    adb connect 192.168.10.124:5555
+    # 第三步：验证无线连接是否成功
+    adb devices
+    # 断开连接： adb disconnect
+    ```
+
+
+ 
 
 ## 3.16 Monday
 1. 电脑DROID环境配置
