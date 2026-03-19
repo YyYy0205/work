@@ -1,4 +1,15 @@
 # 工作记录
+## 3.19
+1.测试oculus_reader
+> 网址：[oculus reader](https://github.com/rail-berkeley/oculus_reader)
+- cd ~/oculus_reader
+- python -m oculus_reader.reader
+      <img width="847" height="555" alt="截图 2026-03-19 16-30-54" src="https://github.com/user-attachments/assets/4bbe04c6-3a15-4739-bbf0-5e07c8d5d08c" />
+      电脑端显示数据，quest端自动进入apk界面
+2. 尝试lerobot_franka_teleop
+> 网址：[erobot_franka_teleop](https://github.com/YyYy0205/lerobot_franka_teleop)
+- 创建conda 环境： franka_data
+- clone: Franka Teleoperation Control
 
 ## 3.17 
 - [x] 打开quest2 开发者模式
