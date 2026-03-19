@@ -1,4 +1,12 @@
 # 工作记录
+
+## 3.20
+- 可能问题：发现问题在oculus/oculus_robot.py中
+  项目代码第 6 行写的是：
+  from .oculus_reader import OculusReader  # 从同目录导入，但同目录没有那个文件
+  但实际上应该是：
+  from oculus_reader import OculusReader  # 从外部包导入
+
 ## 3.19
 1.测试oculus_reader
 > 网址：[oculus reader](https://github.com/rail-berkeley/oculus_reader)
