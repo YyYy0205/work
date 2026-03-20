@@ -6,6 +6,13 @@
   from .oculus_reader import OculusReader  # 从同目录导入，但同目录没有那个文件
   但实际上应该是：
   from oculus_reader import OculusReader  # 从外部包导入
+- [x] 完成NUC的环境配置
+- [x] 遥操作
+> 遥操作丝滑，但夹爪控制还有问题(可控制，但有延迟）
+
+Todo：
+- [ ] 修改夹爪控制
+
 
 ## 3.19
 1.测试oculus_reader
