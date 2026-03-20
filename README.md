@@ -18,6 +18,10 @@
 > 网址：[erobot_franka_teleop](https://github.com/YyYy0205/lerobot_franka_teleop)
 - 创建conda 环境： franka_data
 - clone: Franka Teleoperation Control
+- 配置/连接 quest
+- 编辑配置文件
+- 测试：franka-record
+> ERROR: from oculus_reader.FPS_counter import FPSCounter / ModuleNotFoundError: No module named 'oculus_reader'
 
 ## 3.17 
 - [x] 打开quest2 开发者模式
